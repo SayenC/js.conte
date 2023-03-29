@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.button{
+    color: rgb(226, 193, 143);
+    height: 50px;
+    padding: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(92, 78, 59);
+    color: rgb(161, 128, 85);
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8pxrgb(90, 87, 82);
+}
+.cardCarrito{
+    justify-content: flex-start;
+    width: 450px;
+    gap: 15px;
+    border-radius: 1rem;
+    box-shadow:0 4px 8px rgb(226, 193, 143);
+    align-items: center;
+    padding: 6px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#listaProdctos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
